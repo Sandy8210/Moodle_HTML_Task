@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <h1 style="color: blue; text-decoration: underline;">Registration Form</h1>
+    <form>
+        <fieldset style="width: 500px;">
+            <legend id="fd">Registration form</legend>
+            <div>
+                <label for="firstname" id="firstname">Firstname</label>
+                <input type="text" name="firstname" placeholder="Enter your Firstname" required>
+            </div>
+            <br>
+            <div>
+                <label for="Lastname" id="Lastname">Lastname</label>
+                <input type="text" name="Lastname" placeholder="Enter your Lastname" required>
+            </div>
+            <div>
+                <label for="Gender" id="Gender">Gender :</label>
+                <input type="radio" name="Gender" placeholder="Male" value="Male" />
+                <label for="Gender">Male</label>
+                <input type="radio" name="Gender" placeholder="Female"> <label for="Gender">Female</label>
+                <input type="radio" name="Gender" placeholder="Others"> <label for="Gender">Others</label><br>
+            </div>
+            <div>
+                <label for="Email" id="Email">Email</label>
+                <input type="email" name="email" placeholder="Enter your email" required />
+            </div><br>
+            <div>
+                <label for="">Password</label>
+                <input type="password" placeholder="enter the password" required>
+            </div><br>
+
+            <div>
+                <label for="">Confirm Password</label>
+                <input type="password" placeholder="enter the password" required>
+            </div><br>
+            <div>
+                <label for="">Mobile </label>
+                <input type="number" placeholder="9876543210" required>
+            </div> <br>
+
+            <div>
+                <label for="">Dob </label>
+                <input type="date">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="">Course </label>
+                <select>
+                    <option>select Course</option>
+                    <option>Full-Stack</option>
+                    <option>Web Development</option>
+                    <option>Cyber Security</option>
+                    <option>Cloud</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <label for="">Nationality: </label>
+
+                <input type="checkbox">
+                <label for="">Indian</label>
+                <input type="checkbox">
+                <label for="">Others</label>
+            </div>
+            <br>
+            <div>
+                <label for="">Resume</label>
+                <input type="file" required>
+            </div>
+            <br>
+
+            <div>
+                <textarea name="about" cols="30" rows="5" placeholder="Tell us..."></textarea>
+            </div>
+
+            <input type="button" value="Submit">
+            <input type="button" value="Reset">
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
